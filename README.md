@@ -17,6 +17,7 @@
 4. `meta`작성하고 자동목록 중 `kw`선택하고 키워드 작성하기
 5. `meta`작성하고 자동목록 중 `desc`선택하고 요약 작성하기
 6. `body`내부에 앱의 주요 내용 작성할 준비하기
+7. * 파비콘 무조건! <head>안에 link:favicon
 # 태그
 ## 다양한 문서 태그
 * 'h1~h6' : 블록, 제목(대중소)
@@ -42,3 +43,19 @@
 #git 
 *git clone 깃주소붙여넣기
 * 링크태그
+* 동영상 태그 : autoplay, muted, controls, loop 동영상 속성
+    //비디오를 작성하는 방법1
+    <video src="동영상경로" autoplay muted controls loop></video>
+    //비디오를 작성하는 방법2
+    <video autoplay muted controls loop>
+        <source src="동영상경로" type="동영상타입1">
+        <source src="동영상경로" type="동영상타입2">
+    </video>
+* 파비콘 무조건! <head>안에 link:favicon
+* alt+z :자동줄바꿈
+* src="절대경로?playlist=뒤의동영상이름복붙&속성=값&속성=값&속성=값"
+    예시 <iframe width="587" height="1043" src="https://www.youtube.com/embed/vYuER_3og_M?playlist=vYuER_3og_M&autoplay=1&loop=1&mute=1" title="개발자 빡치게 하는 법" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+* alt +위 아래 방향키: 이동
+* <!-- shift + alt + a -->
+* shift + | > 구분선
+* window + . >이모지

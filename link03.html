@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>링크+이미지+비디오</title>
+    <link rel="shortcut icon" href="./images/common_cart02.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+</head>
+<body>
+    <!-- 바로가기링크 -->
+    <div id="top">
+        <a href="#href1">절대경로</a>
+        <a href="#href2">상대경로</a>
+        <a href="#href3">경로+이미지</a>
+        <a href="#href4">동영상</a>
+    </div>
+    <h1>링크태그</h1>
+    <div id="href1">
+        <h2>절대경로</h2>
+        <p>실제 서비스되는 웹 주소(구글, 네이버 등)</p>
+        <a href="https://google.com" target="_blank">구글 바로가기</a>
+    </div>
+    <h2>상대경로</h2>
+    <div id="href2">
+        <p>현재 작업파일 위치 기준으로 상대적인 파일, 폴더 주소</p>
+        <a href="./link02.html">link02 바로가기</a>
+        <a href="./images/color_case.jpg">케이스 보기</a>
+    </div>
+    <a href="#top" class="top_btn">위로</a>
+    <h2>상대경로+이미지</h2>
+    <div id="href3">
+        <a><img></a>
+        <a href="https://apple.com"><img src="./images/ico_ios.gif" alt="애플 바로가기"></a>
+        <a><img></a>
+        <a href="./start.html"><img src="./images/detail_icon_wish.png" alt="좋아요"></a>
+    </div>
+    
+    <h2>비디오</h2>
+    <div id="href4">
+        <video src="./video/cat.mp4" autoplay muted loop controls></video>
+        <p>상대경로 위치에 mp4 등과 같은 영상파일이 있는 경우만 사용</p>
+        <iframe width="587" height="1043" src="https://www.youtube.com/embed/vYuER_3og_M?playlist=vYuER_3og_M&autoplay=1&loop=1&mute=1" title="개발자 빡치게 하는 법" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+        <iframe width="587" height="1043" src="https://www.youtube.com/embed/i956VFnIOQY?playlist=i956VFnIOQY&autoplay=1&loop=1&mute=1" title="[지구] 사람이랑 말싸움하는 앵무새 / 저녁메뉴 정하다 일어난 일 / 왜 자꾸 우기냐고..ㅠㅠ / 이게 미운 4살인가 / talking parrot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <a href="#top" class="top_btn">위로</a>
+</body>
+</html>
