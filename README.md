@@ -59,3 +59,4 @@
 * <!-- shift + alt + a -->
 * shift + | > 구분선
 * window + . >이모지
+* ctrl + h >같은 글자 찾기
