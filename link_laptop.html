@@ -78,28 +78,46 @@
                 <div class="benefit">
                     <h2 class="Properties">혜택</h2>
                     <div class="benefit_list">
-                        <p class="accrual_information"><em>1679P</em>적립 (WELCOME 0.1% 적립)
-                        </p>
-                        <a href="#" class="instalment_information">
+                        <p class="accrual_information"><em>1679P</em>적립 (WELCOME 0.1% 적립)</p>
+                        <a href="#" class="installment_information">
                         월 279,833원 (6개월) 무이자할부<img src="" alt="우클릭"></a>
+                        <!-- (위) 무이자할부 a 클릭시 실행되는 영역 -->
+                        <div class="interest_free_installment_open">
+                            <h3>무이자 할부</h3>
+                            <p>...</p>
+                        </div>
                     </div>
                 </div>
                 <!-- 배송 -->
                 <div class="delivery">
                     <h2 class="properties">배송</h2>
                     <div class="delivery_list">
-                        <p class="delivery_cost"><em>무료배송</em></p>
-                        <p class="delivery_departure">16:00 까지 결제 시 <em>오늘 출발</em><a><img src="" alt=""></a></p>
-                        <P class="delivery_type">일반택배</P>
-                        <P class="delivery_extra_cost">제주도/도서산간 지역 8000원</P>
+                        <em>무료배송</em>
+                        <span>16:00까지 결제시
+                            <em>오늘 출발</em>
+                            <a href="#" class="today_info"><img src="" alt="오늘출발정보보기"></a>
+                            <!-- (위) a 클릭 시 실행되는 오늘 출발 정보-->
+                            <span class="today_info_open">
+                                <em>판매자가 '오늘출발'을 약속한 상품입니다.</em>
+                            </span>
+                        </span>
+                        <span class="delivery_type">일반택배</span>
+                        <span class="delivery_extra_cost">제주도/도서산간 지역 8000원</span>
                     </div>
                 </div>
                 <!-- 브랜드 -->
                 <div class="brand_info">
-                    <a href="#" class="brand">
-                        <img src="" alt="LG전자 브랜드아이콘">
-                        <span class="brand_name">LG전자<img src="" alt="우클릭"></span>
-                        <span class="brand">브랜드</span>
+                    <a href="#" class="brand_link"><!-- 브랜드바로가기 -->
+                        <p class="brand_logo"><img src="" alt="LG"></p>
+                        <div class="brand_name">
+                            <div class="brand">
+                                <em>LG전자</em><img src="" alt="우클릭">
+                            </div>
+                        </div>
+                        <p>브랜드</p>
+                    </a>
+                    <a href="#" class="brand_favorite"><!-- 브랜드관심등록 -->
+                        <img src="" alt="">
                     </a>
                 </div>
             </div>
